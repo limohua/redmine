@@ -7,8 +7,11 @@ More details can be found at http://www.redmine.org
 == Installing Redmine
 
 RAILS_ENV=production rake config/initializers/session_store.rb
+
 rake generate_session_store
+
 RAILS_ENV=production rake db:migrate
+
 RAILS_ENV=production rake redmine:load_default_data
 
 Use default administrator account to log in:
