@@ -2,4 +2,25 @@
 
 Redmine is a flexible project management web application written using Ruby on Rails framework.
 
+<<<<<<< HEAD
 More details can be found at in the doc directory or on the official website http://www.redmine.org
+=======
+More details can be found at http://www.redmine.org
+
+== Installing Redmine
+
+RAILS_ENV=production rake config/initializers/session_store.rb
+
+rake generate_session_store
+
+RAILS_ENV=production rake db:migrate
+
+RAILS_ENV=production rake redmine:load_default_data
+
+Use default administrator account to log in:
+
+login: admin
+password: admin
+
+http://www.redmine.org/wiki/redmine/RedmineInstall
+>>>>>>> update README
