@@ -59,6 +59,9 @@ en:
       over_x_years:
         one:   "over 1 year"
         other: "over {{count}} years"
+      almost_x_years:
+        one:   "almost 1 year"
+        other: "almost {{count}} years"
 
   number:
     human:
@@ -499,6 +502,7 @@ en:
   label_version: Version
   label_version_new: New version
   label_version_plural: Versions
+  label_close_versions: Close completed versions
   label_confirmation: Confirmation
   label_export_to: 'Also available in:'
   label_read: Read...
@@ -658,6 +662,8 @@ en:
   label_board: Forum
   label_board_new: New forum
   label_board_plural: Forums
+  label_board_locked: Locked
+  label_board_sticky: Sticky
   label_topic_plural: Topics
   label_message_plural: Messages
   label_message_last: Last message
@@ -848,6 +854,7 @@ en:
   text_wiki_page_nullify_children: "Keep child pages as root pages"
   text_wiki_page_destroy_children: "Delete child pages and all their descendants"
   text_wiki_page_reassign_children: "Reassign child pages to this parent page"
+  text_own_membership_delete_confirmation: "You are about to remove some or all of your permissions and may no longer be able to edit this project after that.\nAre you sure you want to continue?"
   
   default_role_manager: Manager
   default_role_developper: Developer
